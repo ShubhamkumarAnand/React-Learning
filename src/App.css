@@ -1,26 +1,5 @@
 * {
     margin: 50;
     padding: 10;
-}
-
-.App {
-    align-content: center;
-}
-.nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-img {
-    width: 40px;
-}
-
-.nav-bar {
-    list-style: none;
-    display: flex;
-}
-
-.nav-items > li {
-    padding: 10px;
+    box-sizing: border-box;
 }
