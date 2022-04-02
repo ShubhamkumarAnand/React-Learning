@@ -1,7 +1,7 @@
 import React from 'react'
-import './App.css'
 import MainComponent from './component/MainComponent'
 import Navbar from './component/Navbar'
+import './App.css'
 
 export default function App() {
   return (

@@ -3,3 +3,70 @@
     padding: 10;
     box-sizing: border-box;
 }
+
+body {
+    height: 100vh;
+    background-color: #282d35;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222a;
+    padding: 30px 25px;
+    height: 90px;
+}
+
+.nav--img {
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;
+}
+
+.nav--logo_text,
+.nav--title {
+    padding: 10px;
+}
+
+.nav--logo_text {
+    margin-right: auto;
+    color: #61dafb;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav--title {
+    font-weight: 600;
+    color: #deebaf;
+}
+
+.main--header {
+    font-size: 39.06px;
+    margin: 0;
+    letter-spacing: -0.05em;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.main--points {
+    margin-bottom: 10px;
+    line-height: 19px;
+    padding-block: 10px;
+}
+
+.main--points::marker {
+    color: #61dafb;
+    font-size: 1.4rem;
+}
+.main--facts {
+    margin-top: 46px;
+    max-width: 450px;
+}
+
+main {
+    padding: 55px 27px;
+    color: white;
+    background-image: url(./images/reactjs-icon-large.png);
+    background-repeat: no-repeat;
+    background-position: right 75%;
+}
